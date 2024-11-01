@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Lobster&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --bs-primary-0: #BF0606;
+    --bs-primary-1: #8C0707;
+    --bs-secondary-0: #08748C;
+    --bs-secondary-1: #0B688C;
+    --bs-background: #F2F2F2;
+}
