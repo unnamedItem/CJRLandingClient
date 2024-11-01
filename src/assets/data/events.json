@@ -1,0 +1,8 @@
+{
+"events": [
+        { "id": 1, "title": "Eventos Anuales", "description": "Cultura en juego 2023", "image": "cej.jpg", "active": true},
+        { "id": 2, "title":"Juntadas Mensuales","descriptio": "", "image": "mensual.jpg", "active": true},
+        { "id": 3, "title": "Torneos", "description": "Torneo de Sagrada", "image": "torneo.jpg", "active": true},
+        { "id": 4, "title": "Hidden", "description": "Test", "image": "", "active": false}
+      ]
+}

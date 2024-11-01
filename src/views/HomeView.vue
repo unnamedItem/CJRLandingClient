@@ -1,3 +1,7 @@
+<script setup>
+import EventCarousel from '../components/EventCarousel.vue';
+</script>
+
 <template>
   <div class="home">
     <!-- Encabezado -->
@@ -17,50 +21,7 @@
 
     <!-- Eventos -->
     <section id="events" class="py-4 bg">
-      <div class="container">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-              <img src="../assets/img/cej.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Eventos Anuales</h5>
-                <p class="d-none d-md-block">Cultura en juego 2023</p>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="../assets/img/mensual.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Juntadas Mensuales</h5>
-                <p></p>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="../assets/img/torneo.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Torneos</h5>
-                <p class="d-none d-md-block">Torneo de Sagrada</p>
-              </div>
-            </div>
-
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
-        </div>
-      </div>
+      <EventCarousel />
     </section>
 
     <!-- Sección Sobre Nosotros -->
@@ -96,10 +57,6 @@
 
 
 <style scoped>
-.carousel-item-body {
-  height: 70vh;
-}
-
 img {
   height: 70vh;
   max-width: 100%;
@@ -110,18 +67,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
-  padding: 1%;
-  font-size: small;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
 }
 
 .home {
