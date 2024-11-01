@@ -3,13 +3,15 @@
     <!-- Encabezado -->
     <header id="inicio" class="jumbotron jumbotron-fluid text-center bg">
       <div class="container">
-        <h1 class="display-4">
-          <img src="../assets/logo.png" alt="" class="main-logo" style="height: 75px; width: 75px">
-          <span> Club de Juegos Rosario </span>
-          <img src="../assets/logo.png" alt="" class="main-logo" style="height: 75px; width: 75px">
-        </h1>
-        <p class="lead">Un lugar donde disfrutar de los mejores juegos de mesa modernos.</p>
-        <a class="btn btn-primary btn-lg" href="/collection" role="button">Explora nuestros juegos</a>
+        <div class="row d-flex align-items-center">
+          <div class="col">
+            <h1 class="display-4">
+              <span> Club de Juegos Rosario </span>
+            </h1>
+            <p class="lead">Un lugar donde disfrutar de los mejores juegos de mesa modernos.</p>
+            <a class="btn btn-primary btn-lg" href="/collection" role="button">Explora nuestros juegos</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -23,36 +25,39 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
+
             <div class="carousel-item active">
-              <img src="https://culturaenjuego.ar/fotos/0_whatsappimage2023-09-30at8.47.02pm1.jpg" class="d-block w-100" alt="...">
+              <img src="../assets/img/cej.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption">
                 <h5>Eventos Anuales</h5>
                 <p class="d-none d-md-block">Cultura en juego 2023</p>
               </div>
-              
             </div>
+
             <div class="carousel-item">
-              <img src="https://scontent.faep11-2.fna.fbcdn.net/v/t39.30808-6/453189240_1025428832924976_7565745049833852840_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHxoo6btU0mZO7evVRCxHvyjAYK77sUHSSMBgrvuxQdJK7dmP3B5lAWwQBHVfv1w33Nmg_wS0bVaUXJoz2pU7sT&_nc_ohc=MBW60OkvPkYQ7kNvgGJBPn2&_nc_ht=scontent.faep11-2.fna&_nc_gid=Az8OvIDWiFjVYbwWsgXd49R&oh=00_AYAWgObE6ZXECE6Z1tZxgcn9-gQ7EMG5OJ6R9yfLqMG8sw&oe=66D438E2" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Torneos</h5>
-                <p class="d-none d-md-block">Torneo de Sagrada</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://scontent.faep11-2.fna.fbcdn.net/v/t39.30808-6/450206721_1009200914547768_6049030091936883403_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEdAwpvF_fZsAJWcTypq19ceQ6AoD-Rb-55DoCgP5Fv7gQp76NI_PnNRsGRvr8A9iSSMD4QtUmTuUAAsz_du7kQ&_nc_ohc=xvsD4wfskBIQ7kNvgFcc_As&_nc_ht=scontent.faep11-2.fna&oh=00_AYCHYV3ofCcBIc2LavD7bm7KlOY3T-wbrrHWwLr8rvk1OA&oe=66D460BA" class="d-block w-100" alt="...">
+              <img src="../assets/img/mensual.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption">
                 <h5>Juntadas Mensuales</h5>
                 <p></p>
               </div>
             </div>
+
+            <div class="carousel-item">
+              <img src="../assets/img/torneo.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Torneos</h5>
+                <p class="d-none d-md-block">Torneo de Sagrada</p>
+              </div>
+            </div>
+
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Anterior</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Siguiente</span>
           </button>
         </div>
       </div>
@@ -71,16 +76,16 @@
       <div class="container">
         <h2 class="text-center mb-4">Redes Sociales</h2>
         <div class="row justify-content-center">
-          <a href="https://chat.whatsapp.com/J7888YH88f2IKlqye0q9XX" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+          <a href="https://chat.whatsapp.com/J7888YH88f2IKlqye0q9XX" target="_blank" class="col-12 col-lg-3  d-flex justify-content-center" style="color: gray;">
             <i class="bi bi-whatsapp" style="font-size: 5rem;"></i>
           </a>
-          <a href="https://www.instagram.com/clubdejuegos_rosario/" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+          <a href="https://www.instagram.com/clubdejuegos_rosario/" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
             <i class="bi bi-instagram" style="font-size: 5rem;"></i>
           </a>
-          <a href="https://www.facebook.com/ClubdeJuegosRosario" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+          <a href="https://www.facebook.com/ClubdeJuegosRosario" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
             <i class="bi bi-facebook" style="font-size: 5rem;"></i>
           </a>
-          <a href="https://twitter.com/ClubDeJuegosRos" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+          <a href="https://twitter.com/ClubDeJuegosRos" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
             <i class="bi bi-twitter" style="font-size: 5rem;"></i>
           </a>
         </div>
