@@ -2,7 +2,6 @@
 "events": [
         { "id": 1, "title": "Eventos Anuales", "description": "Cultura en juego 2023", "image": "cej.jpg", "active": true},
         { "id": 2, "title":"Juntadas Mensuales","descriptio": "", "image": "mensual.jpg", "active": true},
-        { "id": 3, "title": "Torneos", "description": "Torneo de Sagrada", "image": "torneo.jpg", "active": true},
-        { "id": 4, "title": "Hidden", "description": "Test", "image": "", "active": false}
+        { "id": 3, "title": "Torneos", "description": "Torneo de Sagrada", "image": "torneo.jpg", "active": true, "detail": "PRIMER TORNEO CLUB DE JUEGOS ROSARIO</br>3 PARTIDAS ASEGURADAS</br>LOS MEJORES A LA FINAL</br>PREMIOS EN LA ÚLTIMA MESA</br></br>CUPOS LIMITADOS!!!!</br>Sábado 27 de Julio</br>Horario: 16:00 puntual</br>Inscripciones: $3000</br>Lugar: La Fortaleza Pichincha - Salta 2845, Rosario</br>Los esperamos!!"}
       ]
 }

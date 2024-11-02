@@ -25,7 +25,7 @@ import EventCarousel from '../components/EventCarousel.vue';
     </section>
 
     <!-- Sección Sobre Nosotros -->
-    <section id="about" class="py-5 bg">
+    <section id="about">
       <div class="container">
         <h2 class="text-center mb-3">Sobre nosotros</h2>
         <p class="about">¡Bienvenido al Club de Juegos Rosario! Si eres un apasionado de los juegos de mesa modernos, este es tu lugar. Nos reunimos mensualmente en La Fortaleza de 19:00 a 04:00 para una noche épica llena de estrategia, diversión y camaradería. Además, te invitamos a nuestras juntadas semanales los miércoles en Invictus de 18:00 a 21:00, donde puedes descubrir nuevos juegos y hacer nuevos amigos. ¡Únete a nosotros y forma parte de la comunidad de jugadores más entusiasta de Rosario!</p>
@@ -33,21 +33,24 @@ import EventCarousel from '../components/EventCarousel.vue';
     </section>
 
     <!-- Sección Contacto -->
-    <section id="contact" class="py-5 bg">
+    <section id="contact" class="py-4 bg">
       <div class="container">
         <h2 class="text-center mb-4">Redes Sociales</h2>
         <div class="row justify-content-center">
-          <a href="https://chat.whatsapp.com/J7888YH88f2IKlqye0q9XX" target="_blank" class="col-12 col-lg-3  d-flex justify-content-center" style="color: gray;">
-            <i class="bi bi-whatsapp" style="font-size: 5rem;"></i>
+          <a href="https://chat.whatsapp.com/J7888YH88f2IKlqye0q9XX" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+            <i class="bi bi-whatsapp" style="font-size: 4rem;"></i>
           </a>
-          <a href="https://www.instagram.com/clubdejuegos_rosario/" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
-            <i class="bi bi-instagram" style="font-size: 5rem;"></i>
+          <a href="https://www.instagram.com/clubdejuegos_rosario/" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+            <i class="bi bi-instagram" style="font-size: 4rem;"></i>
           </a>
-          <a href="https://www.facebook.com/ClubdeJuegosRosario" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
-            <i class="bi bi-facebook" style="font-size: 5rem;"></i>
+          <a href="https://www.facebook.com/ClubdeJuegosRosario" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+            <i class="bi bi-facebook" style="font-size: 4rem;"></i>
           </a>
-          <a href="https://twitter.com/ClubDeJuegosRos" target="_blank" class="col-12 col-lg-3 d-flex justify-content-center" style="color: gray;">
-            <i class="bi bi-twitter" style="font-size: 5rem;"></i>
+          <a href="https://twitter.com/ClubDeJuegosRos" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+            <i class="bi bi-twitter-x" style="font-size: 4rem;"></i>
+          </a>
+          <a href="https://www.youtube.com/@clubdejuegosrosario2391" target="_blank" class="col d-flex justify-content-center" style="color: gray;">
+            <i class="bi bi-youtube" style="font-size: 4rem;"></i>
           </a>
         </div>
       </div>

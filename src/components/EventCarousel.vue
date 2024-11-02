@@ -11,13 +11,12 @@
                       v-for="(item, index) in eventsList" 
                       :key="index" 
                       class="carousel-item" 
-                      :class="{'active': index === 0}">
-                      
-                      <img :src="`/src/assets/img/${item.image}`" class="d-block w-100" :alt="item.altText">
-                      
+                      :class="{'active': index === 0}">                  
+                      <img :src="`/src/assets/img/${item.image}`" class="d-block w-100" :alt="item.altText">                  
                       <div class="carousel-caption">
                         <h5>{{ item.title }}</h5>
-                        <p class="d-none d-md-block">{{ item.description }}</p>
+                        <h5 v-if="item.description">{{ item.description }}</h5>
+                        <h5><a class="nav-link" v-if="item.detail" :href="`/event/${item.id}`">+ info</a></h5>
                       </div>
                     </div>
                 </div>
@@ -59,20 +58,14 @@ export default {
 </script>
 
 <style scoped>
-.carousel-item-body {
-  height: 70vh;
-}
-
 img {
   height: 70vh;
   max-width: 100%;
   object-fit: contain;
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel-item-body {
+  height: 70vh;
 }
 
 .carousel-caption {
@@ -87,39 +80,12 @@ img {
   border-radius: 10px;
 }
 
-.home {
-  height: 80vh;
-}
-
-.btn {
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.6);
-}
-
-i {
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-}
-
-i:hover {
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  color: var(--bs-primary-1);
-}
-
 h1, h2, h3, h4 {
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 h1, h2, h3, h4 {
   color: azure
-}
-
-.main-logo {
-  height: 20vh;
-  width: 20vh;
-}
-
-.about {
-  text-align: justify;
 }
 
 .container {
