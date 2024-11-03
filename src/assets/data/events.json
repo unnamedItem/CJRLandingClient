@@ -1,7 +1,36 @@
 {
-"events": [
-        { "id": 1, "title": "Eventos Anuales", "description": "Cultura en juego 2023", "image": "cej.jpg", "active": true},
-        { "id": 2, "title":"Juntadas Mensuales","descriptio": "", "image": "mensual.jpg", "active": true},
-        { "id": 3, "title": "Torneos", "description": "Torneo de Sagrada", "image": "torneo.jpg", "active": true, "detail": "PRIMER TORNEO CLUB DE JUEGOS ROSARIO</br>3 PARTIDAS ASEGURADAS</br>LOS MEJORES A LA FINAL</br>PREMIOS EN LA ÚLTIMA MESA</br></br>CUPOS LIMITADOS!!!!</br>Sábado 27 de Julio</br>Horario: 16:00 puntual</br>Inscripciones: $3000</br>Lugar: La Fortaleza Pichincha - Salta 2845, Rosario</br>Los esperamos!!"}
-      ]
+  "events": [
+    {
+      "id": 1,
+      "title": "Cultura en Juego",
+      "description": "Cultura en Juego es una convención anual de juegos de mesa que se desarrolla en el Galpón 11 de la ciudad de Rosario, con entrada libre y gratuita",
+      "image": "cej.jpg",
+      "active": true,
+      "detail": "Cultura en Juego es una convención anual de juegos de mesa que se desarrolla en el Galpón 11 de la ciudad de Rosario, con entrada libre y gratuita. Reune a toda la comunidad jugona de la ciudad y alrededores, y cuenta con diversos espacios para todos los gustos: juegos modernos, rol, cartas coleccionables, wargames, juegos clásicos, escape room, juegos educativos, prototipos, editoriales y stands comerciales. En su edicion 2024, pasaron unas 10 mil personas por el evento, ¡no te pierdas la próxima edición! <br/> <a href='https://culturaenjuego.ar/'>Culutra en Juego</a> <br/> <a href='https://www.instagram.com/culturaenjuego/?hl=es'>Instagram</a> <br/> <a href='https://www.facebook.com/LaCulturaEnJuego'>Facebook</a>"
+    },
+    {
+      "id": 2,
+      "title": "Juntadas Mensuale",
+      "description": "Una vez por mes el club pone a disposición toda su ludoteca para jugar toda la noche.",
+      "image": "mensual.jpg",
+      "active": true,
+      "detail": "Podes venir solo o con amigos. No hace falta saber las reglas de los juegos, los voluntarios del club te enseñan. Entrada libre con colaboración a voluntad. Para enterarte de cuándo y dónde se realizara la próxima, seguinos en las redes/ o chequea la pestaña Novedades. ¡Te esperamos!"
+    },
+    {
+      "id": 3,
+      "title": "Torneos",
+      "description": "Pone a prueba tus habilidades y estrategias en nuestros torneos.",
+      "image": "torneo.jpg",
+      "active": true,
+      "detail": "Ya realizamos campeonatos de Catan, Carcassonne, Ticket to ride: Europa, Splendor y Sagrada, y quedan muchos mas por venir de estos y otros juegos. Seguinos en las redes para enterarte de cuándo y dónde se realizara el próximo y cómo inscribirte / o chequea la pestaña Novedades. ¡No te quedes afuera!"
+    },
+    {
+      "id": 4,
+      "title": "Cenas ",
+      "description": "Nos juntamos todos los años para celebrar el cumple del club en agosto y a despedir el año en diciembre.",
+      "image": "cena.jpg",
+      "active": true,
+      "detail": "Comida, amigos y juegos de mesa, la mejor combinación. Para enterarte de cuándo y dónde se realizara la próxima, seguinos en las redes/ o chequea la pestaña Novedades. ¡Te esperamos!"
+    }
+  ]
 }

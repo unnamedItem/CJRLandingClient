@@ -28,7 +28,7 @@ import EventCarousel from '../components/EventCarousel.vue';
     <section id="about">
       <div class="container">
         <h2 class="text-center mb-3">Sobre nosotros</h2>
-        <p class="about">¡Bienvenido al Club de Juegos Rosario! Si eres un apasionado de los juegos de mesa modernos, este es tu lugar. Nos reunimos mensualmente en La Fortaleza de 19:00 a 04:00 para una noche épica llena de estrategia, diversión y camaradería. Además, te invitamos a nuestras juntadas semanales los miércoles en Invictus de 18:00 a 21:00, donde puedes descubrir nuevos juegos y hacer nuevos amigos. ¡Únete a nosotros y forma parte de la comunidad de jugadores más entusiasta de Rosario!</p>
+        <p class="about">¡Bienvenido al Club de Juegos Rosario! Si eres un apasionado de los juegos de mesa modernos, este es tu lugar. Tenemos dos espacios para reunirnos: La Fortaleza Pichincha (Salta 2845) e Invictvs (San Lorenzo 1167). Nuestras reuniones incluyen el martes de Catan, todos los martes a partir de las 18:30 hasta las 21:00 en Invictvs, disfrutar de la ludoteca de Invictvs todos los miercoles a partir de las 17:00 hasta las 21:00, y jugar con nuestra ludoteca en La Fortaleza todos los viernes y sábados a partir de las 21:00 hasta las 03:00. ¡Únete a nosotros y forma parte de la comunidad de jugadores más entusiasta de Rosario!</p>
       </div>
     </section>
 
