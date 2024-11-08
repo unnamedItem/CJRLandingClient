@@ -6,9 +6,36 @@
               <span> {{event.title}} </span>
             </h1>
             <h1> {{ event.description}}</h1>
-            <p class="about" v-html="event.detail"></p>
-            <img :src="`/src/assets/img/${event.image}`" class="d-block w-100">
-            <p class="lead"></p>
+            <p class="detail" v-html="event.detail"></p>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+            <div v-if="event.image.length > 1" class="carousel-indicators">
+                <button v-for="(item, index) in event.image.length" :key="index" :class="{'active':index==0}" type="button" data-bs-target="#carouselExampleCaptions" :data-bs-slide-to="`${index}`" :aria-label="`Slide ${index}`"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-inner">
+                    <div 
+                        v-for="(item, index) in event.image" 
+                        :key="index" 
+                        class="carousel-item" 
+                        :class="{'active': index === 0}">                  
+                        <img :src="`/src/assets/img/${event.image[index]}`" class="d-block w-100">                  
+                        <div class="carousel-caption">
+                        <h5>{{ item.title }}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button v-if="event.image.length > 1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button v-if="event.image.length > 1" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+
           </div>
         </div>
       </div>
@@ -43,7 +70,7 @@
     border-radius: 30px;
   }
 
-  .about {
+  .detail {
     text-align: justify;
   }
 
