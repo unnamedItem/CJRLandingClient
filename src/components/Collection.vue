@@ -240,6 +240,9 @@ onUpdated(() => {
     <!-- COLLECTION -->
     <div class="col-xxl-9 col-12">
       <div class="row">
+        <div v-if="collection.length === 0" class="col emptyListMessage">
+          <h3>No hay juegos que coincidan con la búsqueda.</h3>
+      </div>
         <div v-for="(item, index) in collection" :key="index" class="col-lg-6 col-xl-4">
           <CollectionItem :item="item" @subdomain="onSubdomain($event)"></CollectionItem>
         </div>
@@ -255,6 +258,16 @@ onUpdated(() => {
 </template>
 
 <style scoped>
+.emptyListMessage{
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+  color: azure;
+  margin: 0 28px 32px 16px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
 .loading-blur {
   position: fixed;
   top: 0;

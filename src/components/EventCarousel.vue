@@ -12,7 +12,7 @@
                       :key="index" 
                       class="carousel-item" 
                       :class="{'active': index === 0}">                  
-                      <img :src="`/src/assets/img/${item.image}`" class="d-block w-100" :alt="item.altText">                  
+                      <img :src="`/src/assets/img/${item.image[0]}`" class="d-block w-100" :alt="item.altText">                  
                       <div class="carousel-caption">
                         <h5>{{ item.title }}</h5>
                         <h5 v-if="item.description">{{ item.description }}</h5>
