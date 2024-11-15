@@ -1,9 +1,13 @@
 <script setup>
-import { ref, watchEffect, computed } from "vue"
+import { ref, computed } from "vue"
+import _locales from '../assets/data/locales.json';
+
 
 const WEIGHT_OFFSET = .25
 
 const locales = ref({});
+
+locales.value = _locales;
 
 function setStars(i, rating) {
   if (i * 2 <= rating) {
@@ -71,13 +75,9 @@ const avgWeight = computed(() => {
   }
 })
 
-watchEffect(async () => {
-  locales.value = await fetch('/locales.json').then(res => res.json());
-})
-
 const t = (txt) => {
   return locales.value[txt]
-} 
+}
 </script>
 
 <template>

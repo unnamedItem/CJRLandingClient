@@ -1,0 +1,26 @@
+[
+    {
+        "id": 11111111,
+        "firstname": "Jhon",
+        "lastname": "Doe",
+        "image": null,
+        "active": true,
+        "subscriber": true
+    },
+    {
+        "id": 22222222,
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "image": null,
+        "active": true,
+        "subscriber": false
+    },
+    {
+        "id": 33333333,
+        "firstname": "John",
+        "lastname": "Doe",
+        "image": null,
+        "active": true,
+        "subscriber": true
+    }
+]

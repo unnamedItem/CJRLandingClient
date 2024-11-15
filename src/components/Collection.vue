@@ -1,13 +1,13 @@
 <script setup>
-import { ref, watchEffect, onUpdated, computed } from "vue"
+import { ref, onUpdated, computed, onMounted } from "vue"
 import { useRoute } from 'vue-router';
 import CollectionItem from '@/components/CollectionItem.vue'
 
-const API_URL = `/games.json`;
+import _locales from '../assets/data/locales.json';
+import _games from '../assets/data/games.json';
 
 // =============================================================================
 // Variables
-const result = ref(null);
 const collectionCopy = ref(null);
 const search = ref(useRoute().query.search || '');
 const playingTime = ref(null);
@@ -17,22 +17,6 @@ const age = ref(null);
 const categories = ref(null);
 const filterCollapsed = ref(false);
 const locales = ref({});
-
-// =============================================================================
-// Watchers
-watchEffect(async () => {
-  result.value = await ((await fetch(API_URL)).text()); 
-})
-
-watchEffect(() => {
-  if (result.value) {
-    collectionCopy.value = JSON.parse(result.value);
-  }
-})
-
-watchEffect(async () => {
-  locales.value = await fetch('/locales.json').then(res => res.json());
-})
 
 // =============================================================================
 // Functions
@@ -157,6 +141,11 @@ onUpdated(() => {
   } );
 
   hiddenSections.forEach((seccion)=>observer.observe(seccion));
+})
+
+onMounted(() => {
+  collectionCopy.value = _games;
+  locales.value = _locales;
 })
 </script>
 
