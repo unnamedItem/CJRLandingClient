@@ -70,7 +70,7 @@ const subDomains = computed(() => {
 })
 
 const avgWeight = computed(() => {
-  if (props.item) {
+  if (props.item?.averageweight) {
     return props.item.averageweight.toFixed(2);
   }
 })
