@@ -95,7 +95,7 @@ const t = (txt) => {
             <div class="d-flex justify-content-between">
               <div>
                 <small v-for="sub in subDomains"><span class="mx-1" @click.prevent="$emit('subdomain', sub)">
-                  <abbr :title="t(sub)">
+                  <abbr :title="t(sub) || 'Sin Categoria'">
                     <img v-if="sub == 'Party Games'" src="../assets/icons/party.svg" width="25px" height="25px">
                     <img v-else-if="sub == 'Children\'s Games'" src="../assets/icons/childs.svg" width="25px" height="25px">
                     <img v-else-if="sub == 'Family Games'" src="../assets/icons/family.svg" width="25px" height="25px">
