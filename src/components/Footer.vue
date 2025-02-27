@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <span>&copy; 2024 CJR</span>
+        <span>&copy; 2025 CJR</span>
     </div>
 </template>
 
